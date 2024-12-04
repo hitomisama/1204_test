@@ -24,10 +24,10 @@ function Content() {
       </select>
       </h2>
 
-      {/* 显示过滤后的商店信息 */}
+
       {filteredStores.map((store) => (
         <Store
-          key={store.id} // 确保 id 唯一
+          key={store.id} 
           name={store.name}
           address={store.address}
           phone={store.phone}
