@@ -41,6 +41,7 @@ function Store({ name, address, phone }) {
   return (
     <section className="Store">
       <h3>{name}</h3>
+      <h4>
       <ul>
         <li>
           <b>住所</b>: {address}
@@ -49,6 +50,8 @@ function Store({ name, address, phone }) {
           <b>電話番号</b>: {phone}
         </li>
       </ul>
+
+      </h4>
     </section>
   );
 }
